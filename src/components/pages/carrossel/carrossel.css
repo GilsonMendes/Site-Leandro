@@ -1,0 +1,30 @@
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner{
+    display: flex;
+}
+
+
+.item{
+    min-height: 300px;
+    min-width: 194px;
+    margin-left: -15px;
+    margin-top: -11px;
+    
+}
+
+.item img{
+    width: 350px;
+    height: 245px;
+    border-radius: 12px;
+    pointer-events: none;
+}
+
+.carrossel{
+    cursor: grab;
+    overflow: hidden;
+}
